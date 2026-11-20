@@ -1,0 +1,41 @@
+# Local secrets and personal data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/secrets/
+/private/
+/backups/
+/dumps/
+
+# Firmware images and archives
+*.img
+*.bin
+*.elf
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.xz
+*.lz4
+*.sparse
+
+# Build output and local tools
+/out/
+/build/
+/dist/
+/downloads/
+/toolchains/
+/.repo/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
